@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { Users, UserPlus, Search, Edit2, Trash2, X, CheckCircle, AlertCircle, Briefcase, Mail } from 'lucide-react';
 
-const API_BASE = "https://employee-directory-production-0144053c.up.railway.app";
+const API_URL = "https://employee-directory-production-1bf07cb7.up.railway.app";
 
 function App() {
   const [employees, setEmployees] = useState([]);
